@@ -2,7 +2,7 @@
 
             <div id="footer">
 
-                &copy; Steve <?=date("y")?>
+                &copy; Steve <?=date("Y")?>
 
             </div>
 
