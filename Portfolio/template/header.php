@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+<div id="navBar"> nav stuff </div>
 <header>
     <meta charset="UTF-8">
     <title>My Little Page</title>
@@ -8,20 +9,22 @@
 
         body,html
         {
-            background-color:#AaA;
+            background-image: url("/images/citystreet.jpg");
+            background-position: center;
+            background-attachment: fixed;
+            max-width: 100%;
+            height: auto;
         }
 
         #container
         {
-            width: 800px;
-            margin: 100px auto;
+            max-width: 100%;
             background-color: #EeE;
-            padding: 20px;
         }
 
         #header
         {
-            background-color: #989;
+            background-color: #111;
         }
 
         #header a
